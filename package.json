@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "the app will take input/note from the user and store it in the mongdb. The user can be able to update, eddit or delete theire input from the app.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongojs": "^2.3.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependancies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+
+
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mrkem598/myNoteApp.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "jQuery",
+    "Ajax",
+    "mongodb"
+  ],
+  "author": "Mohammed",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mrkem598/myNoteApp/issues"
+  },
+  "homepage": "https://github.com/mrkem598/myNoteApp#readme"
+}
